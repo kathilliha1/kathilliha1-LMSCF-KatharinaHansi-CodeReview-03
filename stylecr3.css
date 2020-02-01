@@ -246,9 +246,12 @@ p {              /*general margin of all p */
 @media only screen and (max-width: 480px) and (min-width:320px) {
  .container {
     width: 100%;
-    flex-wrap: wrap
+    flex-wrap: wrap;
   }
-  .banner {
-    display: none
+  .mobilehide {
+    display: none;
 }
+  #countryAgeEtc {
+    display: none;
+  }
 }
