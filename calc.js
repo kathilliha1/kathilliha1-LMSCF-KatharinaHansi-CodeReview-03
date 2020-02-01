@@ -12,11 +12,11 @@ function insurance(){
 			break;
 
 			case 2: // Hungary
-				insurance = horsep * 150 / age + 20;
+				insurance = horsep * 120 / age + 100;
 			break;
 
 			case 3: // Greece
-				insurance = horsep * 180 / age + 30;
+				insurance = horsep * 150 / age + 50;
 			break;
 		}
 		
