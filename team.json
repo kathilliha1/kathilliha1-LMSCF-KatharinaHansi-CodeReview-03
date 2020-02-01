@@ -1,0 +1,40 @@
+team = [{
+       "firstName": "Elisabeth",
+       "lastName": "Stau",
+       "emailAddress": "elisabethstau@gmail.com",
+       "jobTitleName": "Baker",
+       "salary": "1300,-",
+       "photo": "<img width=100% src=img/1.jpg>"
+},
+{
+       "firstName": "Jeff",
+       "lastName": "Thompson",
+       "emailAddress": "jeffthompson@gmail.com",
+       "jobTitleName": "Farmer",
+       "salary": "1730,-",
+       "photo": "<img width=100% src=img/2.jpg>"
+},
+{
+       "firstName": "Andrea",
+       "lastName": "Grisel",
+       "emailAddress": "andreagrisel@gmail.com",
+       "jobTitleName": "Nurse",
+       "salary": "2000,-",
+       "photo": "<img width=100% src=img/3.jpg>"
+},
+{
+       "firstName": "Chris",
+       "lastName": "Johnson",
+       "emailAddress": "chrisjohnson@gmail.com",
+       "jobTitleName": "Full Time Travellor",
+       "salary": "1650,-",
+       "photo": "<img width=100% src=img/4.jpg>"
+},
+{
+       "firstName": "Alex",
+       "lastName": "Blue",
+       "emailAddress": "alexblue@gmail.com",
+       "jobTitleName": "Marketing Manager",
+       "salary": "3200,-",
+       "photo": "<img width=100% src=img/5.jpg>"
+}]

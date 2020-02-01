@@ -1,0 +1,239 @@
+body {
+  width: 90%;
+  margin: 0 auto; 
+  font-family: arial;
+}
+/*  --------------------
+    header start
+--------------------
+ */
+.logo {
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  display: flex;
+  justify-content: space-between;     /* aligns flex items along the main axis */
+  padding-top: 25px; 
+  background-color: #FFF3F3;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #FFF3F3;
+  margin: 0 auto; 
+}
+
+nav {
+  background-color: #8E1616;
+  text-align: left; 
+}
+
+a {
+  text-decoration: none;      /* removes line under links */
+  color: white;
+  padding: 10px;
+}
+
+a:hover {
+    background: #6c756e
+}
+
+ul {
+  list-style-type: none;   /* remove the bulletpoints */
+  text-align: left;
+  width: 100%;
+  display: inline-block;    /* to get list items next to each other */
+  display: flex;
+  line-height: 4em; 
+  margin-bottom: 0;
+}
+
+ul li {
+  padding: 0 7px;      /* space around each item */
+  color: white;
+  font-size: 150%; }
+
+.insurancecf {        /* insurance logo */
+  padding-top: 1%; 
+  padding-left: 5%;
+}
+
+#bannerlogo {
+  padding-right: 5%;
+}
+/*  --------------------
+   start main 
+--------------------
+ */
+.background {
+       /* positions container in a relative position */
+}
+
+#bigPic{
+  width: 100%;
+  margin:  0 auto;
+  height: 500px;
+}
+
+.carinsurance {  
+  position: absolute;       /* brings text over images */
+  bottom: 77%;
+  left: 4.5%;
+  color: white;
+  font-size: 150%;
+}
+
+#traffic{
+ background-color: #CECECE; 
+ position: relative; 
+}
+
+#textunderimg{
+  text-align: center;
+  margin-top: 0;
+  padding-top: 1.4%;
+  margin-bottom: 5%;
+  padding-bottom: 1.4%;
+  font-family: Palatino, serif;
+  font-size: 120%;
+  background-color: #CECECE; 
+}  
+
+#headingimg{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 26px;
+  font-weight: normal;
+  font-family: arial;
+}
+/*  --------------------
+   grey box over background image
+--------------------
+ */
+.countryAge{
+  display: flex;
+  margin: 0 15%;
+}
+
+#countryAgeEtc {
+  padding: 5%;
+}
+
+.psName{
+  padding-top: 5%; 
+  display: flex;
+  margin: 0 -1%;
+}
+
+.greytextbox{
+  height: 52%;
+  width: 55%;
+  background-color: #CECECE;
+  position: absolute;        /* brings text over images */
+  right: 10%;
+  top:  50%;
+  left: 22%;
+  border: 2px solid #171717;     
+  opacity: .8;         /* see through */
+  text-align: center;
+}
+
+.nobrain {
+  padding-left: 5%;
+  font-size: 150%;
+}
+
+button {
+  background-color: #8E1616;
+  font-size: 150%;
+  font-weight: bold;
+}
+/*  --------------------
+   two boxes under background image
+--------------------
+ */
+.twoBoxes {            /*space for the two boxes */
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  font-family: arial;
+  color: gray;
+}
+
+.Boxes {                /*final position and border */
+  width: 27%;
+  border: 2px solid lightgrey;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 3%;
+  box-shadow: 1px 1px 1px #ccc, -1px 1px 1px #ccc;      /*shadow bottom, left, right */
+  border-top: 3px solid #171717
+}
+
+p {              /*general margin of all p */
+  margin-bottom: 0;
+  margin-top: 1%;
+}
+
+.bigHeading {                     /*font size and the color of the headline */
+  font-size: 150%;
+  color: #5992C1
+}
+
+.smallHeading {
+  color: black;
+}
+
+.textBox {        /*exact Postion of the p with the checkmarks*/
+  margin-left: 7%;
+  margin-bottom: 5% ;
+}
+/*  --------------------
+   team.html table
+--------------------
+ */
+#js {
+  display: flex;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+}
+/*  --------------------
+   two boxes under background image
+--------------------
+ */
+#footer {
+  background-color: black;
+  width: 100%;
+  margin-top: 5%; 
+}
+
+.name {
+  text-align: center;
+  margin-bottom: 0px;
+  color: white; 
+  padding-bottom: 20px;
+}
+
+.logo5 {
+  margin-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: right; 
+}
+/*  --------------------
+   tablet media querry
+--------------------
+ */
+@media only screen and (min-width: 481px) and (max-width: 770px){
+	.container{
+		width: 100%;
+		margin:  0 auto;
+}
+.mobilehide{
+  display: none;  
+}
+}

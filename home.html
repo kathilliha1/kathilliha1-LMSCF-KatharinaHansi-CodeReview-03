@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--  gives the browser instructions on how to control the page's dimensions and scaling, sets the width of the page to follow the screen-width of the device and sets the initial zoom level when the page is first loaded by the browser -->
+    <link rel="stylesheet" type="text/css" href="stylecr3.css">
+    <title>Insurance</title>
+</head>
+<body>
+	
+	<header>	<!-- header-section -->
+			<div class="logo">
+				<div class="insurancecf">
+					<img src="img/logo.png" alt="CodeFactory">
+				</div>
+				<img id="bannerlogo" class="mobilehide" src="img/banner-1.png" alt="Full Stack Web Developer">
+			</div>
+			
+			<nav class ="nav"> <!-- nav-bar -->
+				<ul>
+					<li><a href="index.html" title="Home">Home</a></li>
+					<li><a href="team.html" title="Team">Team</a></li>
+				</ul>
+			</nav>
+	
+	</header>
+
+	<main> <!-- main part  -->
+		<div id="traffic">
+			<div class="background">  <!-- background img + text over img  -->
+				<img id="bigPic" src="img/traffic-332857_1920.jpg">
+				<div class="carinsurance mobilehide">
+					<h2>Car Insurance</h2>
+				</div>	
+			</div>
+
+			<div class="greytextbox"> <!-- grey text box over background img  -->
+				<div id="countryAgeEtc">
+					<div class="countryAge">
+
+						<label class="nobrain" for="country">Country</label><br>
+						<span style="color: red !important; display: inline; float: none;">*</span>
+						<select id="country" name="country" class="form-control">
+							<option value="1">Austria</option>
+							<option value="2">Hungary</option>
+							<option value="3">Greece</option>
+						</select>
+						
+						<label class="nobrain">Age:</label>
+						<br>
+						<input type="number" id="carAge">
+					</div>
+
+					<div class="psName">
+						<label class="nobrain">Horsepower:</label>
+						<input type="number" id="horsePower">
+						<label class="nobrain">Name:</label>
+						<input type="text" id="ownerName">
+						<br>
+					</div>
+				</div>	
+				<button onclick="insurance()">Click to calculate!</button>       <!-- calls the function -->
+				<h2 id="result">Your costs will be displayed here!</h2>
+			</div>
+		</div>
+
+		<div id="textunderimg">   <!-- text area under big img  -->
+			<p><h3 id="headingimg">Un-complicating car coverage</h3>Understanding your coverage options shouldnt be so hard.<br> We'll guide you through available coverage types,<br>starting with who and what is covered.</p>
+		</div>
+		
+		<div class="twoBoxes">  <!-- two columns  -->
+			<div class="Boxes">
+				<p class="bigHeading">What comes standard <br></p>
+				<p>The coverage you need</p>
+				<br>
+					<p class="textBox"><span><img src="img/ticka.png" width="5%"></span> Bodily Injury Liability</p>
+					<p class="textBox"><span><img src="img/ticka.png" width="5%"></span> Property Damage</p>
+					<p class="textBox"><span><img src="img/ticka.png" width="5%"></span> Medical Payments</p>
+				<hr>	
+				<p class="smallHeading"><b>Benefits</b> <br></p>
+				<p>12-month rate guarantee | 24/7 customer <br>
+				service | Lifetime Repair Guarantee</p>
+			</div>
+			<div class="Boxes">
+				<p class="bigHeading">Add-on protection & coverage</p>
+				<p>For more peace of mind</p>
+				<br>
+					<p class="textBox"><span><img src="img/ticka.png" width="5%"></span> Better Car Replacement</p>
+					<p class="textBox"><span><img src="img/ticka.png" width="5%"></span> Towing & Labor</p>
+					<p class="textBox"><span><img src="img/ticka.png" width="5%"></span> Rental Car Coverage</p>
+				<hr>
+				<p class="smallHeading"><b>Earned Benefits</b><br></p>
+				<p>Accident Forgiveness <sup>1</sup> | New Car <br>
+				Replacement <sup>TM</sup></p>	
+			</div>	
+		</div>
+	</main>
+
+	 <footer>		<!--  footer -->
+		 <div id="footer">  
+			<nav class="nav1">
+				<ul>
+					<li><a href="index.html" title="Home">Home</a></li>
+					<li><a href="team.html" title="Team">Team</a></li>
+				</ul>
+			</nav>
+
+			<div class="logo5" align="right">
+				<img class="mobilehide" src="img/logo-inv.png" alt="CodeFactory">
+			</div>
+
+			<div class="name">
+				Katharina Hansi - CodeFactory 2020
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="calc.js"></script>	 <!-- Javascript for calculation in grey box -->
+</body>
+</html>

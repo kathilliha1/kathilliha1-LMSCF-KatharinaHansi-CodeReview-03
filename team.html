@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--  gives the browser instructions on how to control the page's dimensions and scaling, sets the width of the page to follow the screen-width of the device and sets the initial zoom level when the page is first loaded by the browser -->
+    <link rel="stylesheet" type="text/css" href="stylecr3.css">
+    <title>Team</title>
+</head>
+
+<body>
+	<header>	<!-- header-section -->
+		<div class="logo">
+			<div class="insurancecf">
+				<img src="img/logo.png" alt="CodeFactory">
+			</div>
+			<img id="bannerlogo" class="mobilehide" src="img/banner-1.png" alt="Full Stack Web Developer"> <!-- logo will disapear with a smaller screen -->
+		</div>
+			
+		<nav class="nav"> <!-- nav-bar -->
+			<ul>
+				<li><a href="home.html" title="Home">Home</a></li>
+				<li><a href="team.html" title="Team">Team</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div id="main"> <!-- body for js und json table -->
+		<script type="text/javascript" src="team.json"></script>
+		<script type="text/javascript" src="table.js"></script>
+	</div>	
+ 	
+ 	<footer>		<!--  footer -->
+		<div id="footer">  
+			<nav class="nav1">
+				<ul>
+					<li><a href="index.html" title="Home">Home</a></li>
+					<li><a href="team.html" title="Team">Team</a></li>
+				</ul>
+			</nav>
+
+			<div class="logo5" align="right">
+				<img class="mobilehide" src="img/logo-inv.png" alt="CodeFactory">   <!-- logo will disapear with a smaller screen -->
+			</div>
+
+			<div class="name">
+				Katharina Hansi - CodeFactory 2020
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
